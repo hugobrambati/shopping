@@ -1,0 +1,38 @@
+h1{
+    text-align: center;/*alinhar texto*/
+}
+
+body{
+    background-color: rgba(113, 176, 177, 0.862) !important;
+    font-family: Righ
+}
+
+img{
+    width: 200px; /*altura da imagem*/
+   
+}
+
+.pag_inicio{ /*para chamar uma class no usamos o inicio um . */
+    height: 200px;
+}
+
+span{
+    margin-top: 100px;
+}
+
+#game{ /* para chamar um id usamos #  */
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+table{
+    border: 2px #000000 solid;
+  
+}
+td{
+    border: 2px #000000 solid;
+}

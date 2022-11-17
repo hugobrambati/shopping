@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <a href="index.html">Inicio</a>
+    <a href="quem_somos.html">Quem Somos</a>
+    <a href="aluguel.html">Alugue sua Loja</a>
+    <a href="lojas.html">Lojas</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="cadastro.html">Cadastre-se</a>
+    <a href="promocao.html">Promoções</a>
+    
+    <h1>Alugue sua Loja</h1>
+    <form action="enviar" method="post">
+        <div>
+         <input type="text" placeholder="Nome" id="nome" name="nome">
+        </div>
+        
+        <div>
+            <input type="number" placeholder="Idade" id="idade" name="idade">
+        </div>
+        
+        <div>
+         <input type="email" placeholder="Email" id="email" name="email">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Telefone Fixo" id="telfix" name="telfix">
+           </div>
+           
+        <div>
+            <input type="text" placeholder="Telefone Celular" id="telcel" name="telcel">
+        </div>
+
+        <div>
+            <label for="cidade">Cidade: </label>
+            <select name="cidade" id="cidade">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="NI">Nova Iguaçu</option>
+                <option value="SJM">São João do Meriti</option>
+                <option value="DC">Duque de Caxias</option>
+            </select>
+            </div>
+        
+        <div>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" id="sexo" name="sexo" value="M">Masculino
+            <input type="radio" id="sexo" name="sexo" value="F">Feminino
+        </div>
+
+        <div>
+            <label for="estilo">Estilo de Loja: </label>
+            <input type="checkbox" name="estilo" id="estilo" value="L">Loja
+            <input type="checkbox" name="estilo" id="quiosque" value="Q">Quiosque
+            <input type="checkbox" name="estilo" id="stand" value="S">Stand
+        </div>
+
+        
+        
+        
+        <div>
+         <textarea placeholder="Mensagem" id="mensagem" cols="21" rows="10"></textarea>
+        </div>
+        <div>
+         <input type="button" value="Enviar">
+         <input type="submit" value="Ok">
+         <input type="reset" value="Limpar">
+         </div>
+         
+    </form>
+</body>
+</html>
